@@ -24,8 +24,8 @@ pkg install curl -y
 pkg install libenet -y
 pkg install wget -y
 clear
-wget -q https://github.com/KazuraWae/KazuraProxy/raw/main/proxy
+wget -q https://github.com/KazuraWae/KazuraProxy/raw/main/kazura
 sleep 1
 echo -e "${GREEN}Kazura Proxy Installed${ENDCOLOR}"
-echo -e "${GREEN}Execute proxy with this command: ./proxy${ENDCOLOR}"
-chmod +x proxy
+echo -e "${GREEN}Execute proxy with this command: ./kazura${ENDCOLOR}"
+chmod +x kazura
