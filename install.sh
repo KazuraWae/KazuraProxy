@@ -10,9 +10,9 @@ if [[ "$bito" != "arm64-v8a" && "$bito" != "x86_64" ]]; then
 fi
 echo -e "${GREEN}Installing Proxy...${ENDCOLOR}"
 sleep 1
-if [ -f "proxy" ]; then
+if [ -f "kazura" ]; then
     echo -e "${RED}Deleting old proxy...${ENDCOLOR}"
-    rm proxy
+    rm kazura
     sleep 1
     echo -e "${GREEN}Updating proxy...${ENDCOLOR}"
 fi
