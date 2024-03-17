@@ -28,4 +28,4 @@ wget -q https://github.com/KazuraWae/KazuraProxy/raw/main/kazura
 sleep 1
 echo -e "${GREEN}Kazura Proxy Installed${ENDCOLOR}"
 echo -e "${GREEN}Execute proxy with this command: ./kazura${ENDCOLOR}"
-chmod +x kazura
+chmod +x KazuraProxy
